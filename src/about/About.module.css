@@ -1,0 +1,43 @@
+.im{
+    height: 20vh;
+    width: 20vh;
+    /* background-color: blueviolet; */
+}
+.para{
+    display: flex;
+    margin-left: 2vh;
+    /* color: red; */
+}
+p{
+    margin: 2vh;
+    text-align: justify;
+    color: red;
+}
+.outer{
+    padding: 30px;
+    justify-content: flex-end;
+}
+.box{
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    padding-left: 20vh;
+    position: absolute;
+    margin-left: 30vh;
+}
+.dv{
+    background-color: rgb(109, 139, 240);
+    border: 1px solid black;
+    padding: 3vh;
+    height: 20vh;
+    width: 32vh;
+    margin-left: 1vh;
+    position: relative;
+}
+span{
+    color: white;
+}
+.spn{
+    font-weight: bolder;
+    color: rgb(246, 250, 40);
+}
