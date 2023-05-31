@@ -1,6 +1,7 @@
 import React from "react";
-import reactLogo from "../amr.png";
+import reactLogo from "../logo.png";
 import style from "./About.module.css";
+
 
 function About() {
   return (

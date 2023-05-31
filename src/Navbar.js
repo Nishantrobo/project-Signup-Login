@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import reactLogo from "./amr.png";
+import reactLogo from "./logo.png";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 function Navbar() {

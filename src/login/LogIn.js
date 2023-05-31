@@ -37,7 +37,6 @@
 //         }
 //     }, [formErrors, isSubmit]);
 
-
 //     const validate = (values) => {
 //         const errors = {};
 //         var inValid = /\s/;
@@ -65,7 +64,6 @@
 //         return errors;
 //     };
 
-
 //     return (
 //         <>
 //             <form onSubmit={handleSubmit}>
@@ -91,9 +89,6 @@
 // }
 
 // export default LogIn
-
-
-
 
 import React, { useRef, useState } from "react";
 import styles from "./LogIn.module.css";
@@ -181,39 +176,42 @@ const Login = () => {
 
   return (
     <div className={styles.loginMian}>
-     <img className={styles.sideimg} src="https://c0.wallpaperflare.com/preview/722/933/115/active-adult-athlete-biceps.jpg" alt="demo"  />
-    
-       
-        <form className={styles.loginContainer} onSubmit={handlesubmit}>
+      <img
+        className={styles.sideimg}
+        src="https://w.forfun.com/fetch/0b/0bc739968eeb709d8eebbdb132141cb8.jpeg?h=900&r=0.5"
+        alt="demo"
+      />
+
+      <form className={styles.loginContainer} onSubmit={handlesubmit}>
         <h1>Login</h1>
-          <label htmlFor="email">Email:</label>
-          <input
-            value={formValues.email}
-            onChange={handleChange}
-            type="text"
-            name="email"
-          />
-          <p>{errors.email}</p>
-          <label htmlFor="password">Password:</label>
-          <input
-            value={formValues.password}
-            onChange={handleChange}
-            type="password"
-            name="password"
-          />
-          <p>{errors.password}</p>
-          <button type="submit" className={styles.loginButton}>
-            Login
-          </button>
-          <h3>
-          Don't have an account? <Link className={styles.spanlogin} to="/register">Register</Link>
+        <label htmlFor="email">Email:</label>
+        <input
+          value={formValues.email}
+          onChange={handleChange}
+          type="text"
+          name="email"
+        />
+        <p>{errors.email}</p>
+        <label htmlFor="password">Password:</label>
+        <input
+          value={formValues.password}
+          onChange={handleChange}
+          type="password"
+          name="password"
+        />
+        <p>{errors.password}</p>
+        <button type="submit" className={styles.loginButton}>
+          Login
+        </button>
+        <h3>
+          Don't have an account?{" "}
+          <Link className={styles.spanlogin} to="/register">
+            Register
+          </Link>
         </h3>
         <h1>{isUser}</h1>
-        </form>
-       
-        
-      </div>
-   
+      </form>
+    </div>
   );
 };
 

@@ -268,7 +268,7 @@ const Register = () => {
       <h2>{isregister ? "Registration succesfully" : ""}</h2>
       </form>
       <div>
-      <img className={styles.sideimg} src="https://c4.wallpaperflare.com/wallpaper/208/630/413/bodybuilding-computer-download-wallpaper-preview.jpg" alt="demo"  />
+      <img className={styles.sideimg} src="https://w.forfun.com/fetch/f3/f35aac2c75b8684e84207ea303634e41.jpeg?h=900&r=0.5" alt="demo"  />
      </div>
       
     </div>
